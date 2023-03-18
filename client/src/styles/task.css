@@ -1,0 +1,72 @@
+.task--item{
+    background-color: rgba(0, 9, 18, 0.47);
+    width: max-content;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #18181834;
+    border-top: 5px solid dodgerblue;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: start;
+}
+
+.task--item p{
+    margin: 0;
+    color: #fff;
+}
+
+.task--item h3{
+    margin: 0;
+    color: #fff;
+}
+
+.task--item span{
+    color: rgba(30, 143, 255, 0.756);
+}
+
+.task--container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    align-items: center;
+    gap: 2rem;
+}
+
+.task--section{
+    margin-top: 50px;
+}
+
+.task--section h1{
+    margin-bottom: 20px;
+}
+
+.button--container{
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.button--container button{
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.delete--button{
+    background-color: #ff3300;
+    color: #fff;
+}
+
+#edit--button{
+    background-color: #84ff11a7;
+    color: #fff;
+}
